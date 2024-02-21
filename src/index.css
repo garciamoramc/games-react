@@ -55,6 +55,8 @@ li {
   height: auto; 
 }
 
+
+
 @media (max-width: 768px) { 
   .memo-container {
     grid-template-columns: repeat(4, 1fr); 

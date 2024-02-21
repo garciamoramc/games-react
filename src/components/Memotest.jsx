@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react"
+
 const hiddenCard = "https://icongr.am/entypo/back.svg?size=128&color=000000"
 const images = [
     "https://icongr.am/devicon/android-original.svg?size=128&color=currentColor",
@@ -16,9 +17,7 @@ const images = [
 export default function Memotest () {
 
     const [guessed, setGuessed] = useState([])
-    const [selected, setSelected] = useState([
-        `b|${images}`
-    ])
+    const [selected, setSelected] = useState([])
 
     useEffect(() => {
         if (selected.length === 2) {
