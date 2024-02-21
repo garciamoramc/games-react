@@ -1,7 +1,15 @@
 export default function Pokemon () {
     return (
-        <>
-        <p>Pokemon</p>
-        </>
+        <main>
+            <div>
+                <h1 className="component-title">Pokemon</h1>
+    
+                <button onClick={() => window.location.href = "/"}>Home</button>
+            </div>
+        </main>
     )
 }
+
+
+
+
