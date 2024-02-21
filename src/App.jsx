@@ -14,7 +14,7 @@ function AppCover() {
 
       <div className="cover-content">
         <h1>Welcome!</h1>
-        <p>Discover a variety of mini-games created with React and aimed at practising <a href='https://reactrouter.com/en/main' target="_blank">React Router</a>.<br/></p>
+        <p>Discover a variety of mini-games created with React and aimed at practising <a href='https://reactrouter.com/en/main' target="_blank">React Router</a>.</p><br/>
         <p>Explore the different games and have fun!</p>
       </div>
     </div>
