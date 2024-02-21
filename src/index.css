@@ -55,6 +55,43 @@ li {
   height: auto; 
 }
 
+.flipped {
+  cursor: pointer;
+  transform: scale(0.99);
+  transition: transform 0.1s ease;
+}
+
+.flipped .icon {
+  border: 1px solid #f3fcff;
+}
+
+.component-title {
+  margin: 10px 0 5px 0;
+}
+
+.component-description {
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 10px 10px 10px 0;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
 
 
 @media (max-width: 768px) { 
@@ -63,6 +100,3 @@ li {
     grid-template-rows: auto; 
   }
 }
-
-
-
