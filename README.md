@@ -41,7 +41,7 @@ Once you've chosen a game, you'll find a dropdown button within each mini-game t
 Have fun and enjoy!
 
 # Acknowledgements
-A portion of the project's code and the original idea are derived from the YouTube video available at https://www.youtube.com/watch?v=YMfUaHFKI0I titled "Hacemos 3 proyectos React en menos de 100 lineas cada uno (Memotest, WPM, Pokemon)" by **Goncy**. 
+A portion of the project's code and the original idea are derived from the YouTube video available at https://www.youtube.com/watch?v=YMfUaHFKI0I by **Goncy**. 
 
 You can find more of Goncy's work on GitHub at https://github.com/goncy.
 
