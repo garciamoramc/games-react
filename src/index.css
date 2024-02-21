@@ -130,9 +130,18 @@ button:focus {
   font-size: 1.2rem;
 }
 
+
+
 @media (max-width: 768px) { 
   .memo-container {
     grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: auto; 
   }
 }
+
+
+
+
+
+
+
