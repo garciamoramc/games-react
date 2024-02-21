@@ -10,9 +10,8 @@ The page consists of three different mini-games:
 
 ### Technologies Used
 The project has been developed primarily using:
-
-React: A popular JavaScript library for building user interfaces.
-React Router: For managing routes and navigation between the different pages of the project.
+* React: A popular JavaScript library for building user interfaces.
+* React Router: For managing routes and navigation between the different pages of the project.
 
 # Getting Started
 
