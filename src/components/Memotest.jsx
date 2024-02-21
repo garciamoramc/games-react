@@ -49,10 +49,12 @@ export default function Memotest() {
         <main>
             <div>
                 <h1 className="component-title">Memotest</h1>
+
                 <button onClick={() => setShowInstructions(!showInstructions)}>
                     Instructions
                 </button>
                 <button onClick={handlePlayAgain}>Play again</button>
+                <button onClick={() => window.location.href = "/"}>Home</button>
             </div>
             {showInstructions && (
                 <ul className="component-description">
