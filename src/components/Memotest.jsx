@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Confetti from 'react-confetti';
 
 const hiddenCard = "https://icongr.am/entypo/back.svg?size=128&color=000000";
 const images = [
@@ -18,6 +19,7 @@ export default function Memotest() {
     const [guessed, setGuessed] = useState([]);
     const [selected, setSelected] = useState([]);
     const [showInstructions, setShowInstructions] = useState(false);
+    const [gameCompleted, setGameCompleted] = useState(false);
 
     useEffect(() => {
         if (selected.length === 2) {
@@ -30,7 +32,7 @@ export default function Memotest() {
 
     useEffect(() => {
         if (guessed.length === images.length) {
-            alert("winsss");
+            setGameCompleted(true);
         }
     }, [guessed]);
 
@@ -43,6 +45,7 @@ export default function Memotest() {
     const handlePlayAgain = () => {
         setGuessed([]);
         setSelected([]);
+        setGameCompleted(false);
     };
 
     return (
@@ -50,11 +53,12 @@ export default function Memotest() {
             <div>
                 <h1 className="component-title">Memotest</h1>
 
+                <button onClick={() => window.location.href = "/"}>Home</button>
                 <button onClick={() => setShowInstructions(!showInstructions)}>
                     Instructions
                 </button>
                 <button onClick={handlePlayAgain}>Play again</button>
-                <button onClick={() => window.location.href = "/"}>Home</button>
+                
             </div>
             {showInstructions && (
                 <ul className="component-description">
@@ -88,6 +92,7 @@ export default function Memotest() {
                     })}
                 </ul>
             </div>
+            {gameCompleted && <Confetti />}
         </main>
     );
 }
