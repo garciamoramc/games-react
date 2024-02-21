@@ -53,10 +53,10 @@ li {
   border-radius: 12px;
   max-width: 100%; 
   height: auto; 
+  cursor: pointer;
 }
 
 .flipped {
-  cursor: pointer;
   transform: scale(0.99);
   transition: transform 0.1s ease;
 }
