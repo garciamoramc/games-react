@@ -1,8 +1,50 @@
-# React + Vite
+# React Games Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a platform to practice and enjoy different mini-games implemented using React. It is designed to help developers become familiar with React Router routes and navigation menu creation, while also providing entertainment for users.
 
-Currently, two official plugins are available:
+### Project Overview
+The page consists of three different mini-games:
+1. Memory Game: A classic memory game where you must match identical cards.
+2. WPM (Words Per Minute): Test your typing speed with this word counting game.
+3. Pokemon: Catch and collect Pokémon in this exciting capture game!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies Used
+The project has been developed primarily using:
+
+React: A popular JavaScript library for building user interfaces.
+React Router: For managing routes and navigation between the different pages of the project.
+
+# Getting Started
+
+Prerequisites Before starting, ensure you have Node.js and npm (Node Package Manager) installed on your system.
+
+### Installation 
+Follow these steps to get the project up and running on your local machine:
+- Clone the repository to your local machine: `git clone https://github.com/garciamoramc/react-games-hub.git`
+- Navigate to the project directory: `cd react-games-hub`
+- Install dependencies: `npm install`
+- Install React Router DOM: `npm install react-router-dom`
+- Additionally, install the 'react-confetti' package by running: `npm install react-confetti`
+
+### What is react-confetti?
+
+'react-confetti' is a React component that creates a confetti effect, commonly used to provide celebratory feedback or enhance user experience in web applications.
+
+# Running the Application
+Once the dependencies are installed, you can start the development server. 
+- Run the following command: `npm run dev`
+
+This will start the development server and open the game in your default web browser.
+
+# Gameplay
+Navigate through the page menu to select the game you want to play. 
+Once you've chosen a game, you'll find a dropdown button within each mini-game that provides instructions on how to play.
+Have fun and enjoy!
+
+# Acknowledgements
+A portion of the project's code and the original idea are derived from the YouTube video available at https://www.youtube.com/watch?v=YMfUaHFKI0I titled "Hacemos 3 proyectos React en menos de 100 lineas cada uno (Memotest, WPM, Pokemon)" by **Goncy**. 
+
+You can find more of Goncy's work on GitHub at https://github.com/goncy.
+
+
+
