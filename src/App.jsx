@@ -13,8 +13,8 @@ function AppCover() {
       </nav>
 
       <div className="cover-content">
-        <h1>Welcome to this Mini Game Hub</h1>
-        <p>Discover a variety of mini games created with React and with the goal of working <a href='https://reactrouter.com/en/main' target="_blank">React Router</a>.</p>
+        <h1>Welcome!b</h1>
+        <p>Discover a variety of mini-games created with React and aimed at practising <a href='https://reactrouter.com/en/main' target="_blank">React Router</a>.</p>
         <p>Explore the different games and have fun!</p>
       </div>
     </div>
