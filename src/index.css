@@ -40,6 +40,8 @@ li {
   list-style-type: none;
 }
 
+//Memotest styles
+
 .memo-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
