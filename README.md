@@ -5,8 +5,8 @@ This project is a platform to practice and enjoy different mini-games implemente
 ### Project Overview
 The page consists of three different mini-games:
 1. Memory Game: A classic memory game where you must match identical cards.
-2. WPM (Words Per Minute): Test your typing speed with this word counting game.
-3. Pokemon: Catch and collect Pokémon in this exciting capture game!
+2. WPM (Words Per Minute): Test your typing speed with this word counting game. (Work in progress)
+3. Pokemon: Catch and collect Pokémon in this exciting capture game! (Work in progress)
 
 ### Technologies Used
 The project has been developed primarily using:
