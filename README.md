@@ -1,6 +1,6 @@
 # React Games Hub
 
-This project is a platform to practice and enjoy different mini-games implemented using React. It is designed to help developers become familiar with React Router routes and navigation menu creation, while also providing entertainment for users.
+This project is a platform to practice and enjoy different mini-games implemented using React. It is primarily intended for educational purposes and serves as a practical exercise for React Router routes and navigation menu creation.
 
 ### Project Overview
 The page consists of three different mini-games:
